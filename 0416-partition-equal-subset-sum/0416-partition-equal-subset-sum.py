@@ -16,10 +16,12 @@ class Solution:
             if (i,x) in memo:
                 return memo[(i,x)]
             
-            # if x>target:
-            #     memo[(i,x)] = False
-            #     return False
-            memo[(i,x)] = dfs(i+1, x-nums[i]) or dfs(i+1, x)
+            if x>=nums[i]:
+                memo[(i,x)] = dfs(i+1, x-nums[i]) or dfs(i+1, x)
+            else:
+
+                memo[(i,x)] = dfs(i+1, x)
+
             
             return memo[(i,x)]
 
