@@ -9,6 +9,9 @@ class Solution:
         dp = [[False for _ in range(target+1)] for __ in range(n)]
         for i in range(n):
             dp[i][0] = True
+
+        if nums[0] <= target:
+            dp[0][nums[0]] = True
         
         for i in range(1,n):
             for x in range(target+1):
@@ -18,7 +21,7 @@ class Solution:
                 not_take = dp[i-1][x]
 
                 dp[i][x] = take or not_take
-                
+
         return dp[n-1][target]
 
 
