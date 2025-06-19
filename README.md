@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0416-partition-equal-subset-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Dynamic Programming
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Ordered Set
 |  |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -55,4 +58,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 <!---LeetCode Topics End-->
