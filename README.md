@@ -59,4 +59,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+## Stack
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
