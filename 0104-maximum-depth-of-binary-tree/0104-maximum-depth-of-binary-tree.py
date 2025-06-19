@@ -13,7 +13,7 @@ class Solution:
                 return h
             h1 = height(h+1, root.left) 
             h2 = height(h+1, root.right) 
-            print(f"for node {root.val} left, right: {h1, h2}")
+            # print(f"for node {root.val} left, right: {h1, h2}")
             return max(h1, h2)
 
         return height(0, root)
