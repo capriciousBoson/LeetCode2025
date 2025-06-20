@@ -34,8 +34,5 @@ class Solution:
                 t += sorted(levels[(i,j)])
             ans.append(t)
 
-
-
-        
         return ans
         
