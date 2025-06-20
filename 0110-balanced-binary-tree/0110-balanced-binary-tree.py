@@ -17,7 +17,5 @@ class Solution:
             if abs(l-r) > 1: return -1
             return max(l,r)
 
-        if not root: return True
-        h = height(0, root)
-        if h==-1: return False
-        return True
+
+        return height(0, root) != -1
