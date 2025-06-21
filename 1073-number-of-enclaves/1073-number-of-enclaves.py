@@ -13,7 +13,7 @@ class Solution:
                     Q.append((i,j))
                     visited[i][j] = True
                     grid[i][j] = -1
-        print(f"Q : {Q}")
+        # print(f"Q : {Q}")
         dirs = [(0,1), (0,-1), (1,0), (-1,0)]
 
         while Q:
@@ -26,7 +26,7 @@ class Solution:
                     grid[x][y] = -1
                     visited[x][y] = True
 
-        for r in grid: print(r)
+        # for r in grid: print(r)
         ans = 0
         for i in range(m):
             for j in range(n):
