@@ -22,7 +22,7 @@ class Solution:
 
             for dx, dy in dirs:
                 x,y = i+dx, j+dy
-                if 0<=x<m and 0<=y<n and not visited[x][y]:
+                if 0<=x<m and 0<=y<n and not visited[x][y] and mat[x][y]==1:
                     res[x][y] = d+1
                     visited[x][y] = True
                     Q.append((x,y,d+1))
