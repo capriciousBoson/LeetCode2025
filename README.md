@@ -28,10 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Ordered Set
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/capriciousBoson/LeetCode2025/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
@@ -118,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/capriciousBoson/LeetCode2025/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
