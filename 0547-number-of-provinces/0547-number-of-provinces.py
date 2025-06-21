@@ -13,7 +13,7 @@ class Solution:
                 parent[root_v] = root_u
 
         n = len(isConnected)
-        parent = {i:i for i in range(n)}
+        parent = [i for i in range(n)]
         for i in range(n):
             for j in range(i+1,n):
                 if isConnected[i][j]:
