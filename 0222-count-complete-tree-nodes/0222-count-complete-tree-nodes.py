@@ -6,24 +6,15 @@
 #         self.right = right
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
-        def getHeight(node):
-            height = 0
+        def getHeight(node, dir):
+            height = 1
             while node:
-                node = node.left
+                if dir=="l": node = node.left
+                else: node = node.right
                 height += 1
             return height
-        
-        if not root: return 0
-        stack = [root]
-        result = 0
-        while stack:
-            node = stack.pop()
-            heightLeft = getHeight(node.left)
-            heightRight = getHeight(node.right)
-            if heightLeft == heightRight:
-                result += (1 << heightLeft)
-                if node.right: stack.append(node.right)
-            else:
-                result += (1 << heightRight)
-                if node.left: stack.append(node.left)
-        return result
+        if not root: return 0  
+        lh = getHeight(root.left, "l")
+        rh = getHeight(root.right, "r")
+        if lh==rh: return 2**lh-1
+        else: return 1 + self.countNodes(root.left) + self.countNodes(root.right)
