@@ -18,7 +18,7 @@ class Solution:
 
             x = preorder[0]
             root_idx = inorder_index[x]
-            if root_idx < inorder_start or root_idx>inorder_end: return None
+            if inorder_start > inorder_end: return None
 
 
 
