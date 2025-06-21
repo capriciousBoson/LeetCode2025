@@ -9,28 +9,22 @@ class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         n = len(inorder)
         inorder_index = {inorder[i]:i for i in range(n)}
+        pre_idx = 0
 
-        def build(inorder_start, inorder_end, preorder):
-            if inorder_start <0 or inorder_end >n:
-                return None
-            if not len(preorder):
-                return None
+        def build(inorder_start, inorder_end):
+            nonlocal pre_idx
+            if inorder_start>inorder_end: return
 
-            x = preorder[0]
-            root_idx = inorder_index[x]
-            if inorder_start > inorder_end: return None
+            root = TreeNode(preorder[pre_idx])
+            root_idx = inorder_index[preorder[pre_idx]]
 
+            pre_idx += 1
 
-
-            root = TreeNode(preorder.pop(0))
-
-            
-
-            root.left = build(inorder_start, root_idx-1, preorder)
-            root.right = build(root_idx+1, inorder_end, preorder)
+            root.left = build(inorder_start, root_idx-1)
+            root.right = build(root_idx+1, inorder_end)
             return root
         
-        return build(0,n-1, preorder)
+        return build(0,n-1)
 
 
 
