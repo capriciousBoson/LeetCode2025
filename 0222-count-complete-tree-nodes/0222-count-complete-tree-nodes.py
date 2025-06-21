@@ -6,14 +6,24 @@
 #         self.right = right
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
-        count = 0
-        def dfs(node):
-            nonlocal count
-            if not node:
-                return
-            count += 1
-            dfs(node.left)
-            dfs(node.right)
-        dfs(root)
-        return count
+        def getHeight(node):
+            height = 0
+            while node:
+                node = node.left
+                height += 1
+            return height
         
+        if not root: return 0
+        stack = [root]
+        result = 0
+        while stack:
+            node = stack.pop()
+            heightLeft = getHeight(node.left)
+            heightRight = getHeight(node.right)
+            if heightLeft == heightRight:
+                result += (1 << heightLeft)
+                if node.right: stack.append(node.right)
+            else:
+                result += (1 << heightRight)
+                if node.left: stack.append(node.left)
+        return result
