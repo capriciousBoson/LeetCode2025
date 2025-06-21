@@ -9,7 +9,7 @@ class Solution:
 
         m, n = len(board), len(board[0])
 
-        visited = [[False for _ in range(n)] for __ in range(m)]
+        # visited = [[False for _ in range(n)] for __ in range(m)]
 
         Q = deque()
         reverse  = []
@@ -17,7 +17,7 @@ class Solution:
             for j in range(n):
                 if board[i][j] =="O" and ((i in(0, m-1) )or (j in(0, n-1))):
                     Q.append((i,j))
-                    visited[i][j] = True
+                    # visited[i][j] = True
                     board[i][j] = 1
                     reverse.append((i,j))
 
@@ -27,11 +27,11 @@ class Solution:
             i,j = Q.popleft()
             for dx, dy in dirs:
                 x,y = i+dx, j+dy
-                if 0<=x<m and 0<=y<n and board[x][y]=="O" and not visited[x][y]:
+                if 0<=x<m and 0<=y<n and board[x][y]=="O" :
                     board[x][y] = 1
                     reverse.append((x,y))
                     Q.append((x,y))
-                    visited[x][y] = True
+                    # visited[x][y] = True
 
         for i in range(1,m):
             for j in range(1,n):
