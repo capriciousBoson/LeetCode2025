@@ -1,17 +1,19 @@
 from collections import defaultdict, deque
+from string import ascii_lowercase
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         if endWord not in wordList: return 0
         
+        letters = list(ascii_lowercase)
         words = set(wordList)
         k = len(endWord)
-        chars = defaultdict(set)
+        # chars = defaultdict(set)
 
-        for word in wordList:
-            for i in range(k):
-                chars[i].add(word[i])
+        # for word in wordList:
+        #     for i in range(k):
+        #         chars[i].add(word[i])
 
-        print(chars)
+        # print(chars)
 
         Q = deque()
         Q.append((1,beginWord))
@@ -20,7 +22,7 @@ class Solution:
             l,word = Q.popleft()
 
             for i in range(k):
-                for char in chars[i]:
+                for char in letters:
                     newWord = word[:i]+char+word[i+1:]
                     if newWord==endWord : return l+1
                     if newWord in words:
