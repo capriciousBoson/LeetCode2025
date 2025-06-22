@@ -9,13 +9,6 @@ class Solution:
         letters = list(ascii_lowercase)
         words = set(wordList)
         k = len(endWord)
-        # chars = defaultdict(set)
-
-        # for word in wordList:
-        #     for i in range(k):
-        #         chars[i].add(word[i])
-
-        # print(chars)
 
         Q = deque()
         Q.append((1,beginWord))
