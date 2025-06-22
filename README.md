@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/capriciousBoson/LeetCode2025/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/capriciousBoson/LeetCode2025/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Design
 |  |
 | ------- |
@@ -190,4 +191,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/capriciousBoson/LeetCode2025/tree/master/0547-number-of-provinces) |
+## Simulation
+|  |
+| ------- |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/capriciousBoson/LeetCode2025/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 <!---LeetCode Topics End-->
