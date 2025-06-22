@@ -23,8 +23,11 @@ class Solution:
 
         for start in range(numCourses):
             if not visited[start]:
+                visited[start] = True
+                path_visited[start] = True
                 if dfs(start):
                     return False
+                path_visited[start] =False
         return True
         
         
