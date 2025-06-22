@@ -2,7 +2,7 @@ from collections import defaultdict, deque
 from string import ascii_lowercase
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        if endWord not in wordList: return 0
+        if endWord not in wordList  or beginWord==endWord: return 0
         
         letters = list(ascii_lowercase)
         words = set(wordList)
