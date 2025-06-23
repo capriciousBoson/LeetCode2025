@@ -20,11 +20,11 @@ class Solution:
                     visited[neighbor] = True
                     path_visited[neighbor] = True
                     if dfs(neighbor):
-                        safenodes[neighbor] = 0
+                        # safenodes[neighbor] = 0
                         return True
                     path_visited[neighbor] = False
                 elif visited[neighbor] and path_visited[neighbor]:
-                    safenodes[neighbor] = 0
+                    # safenodes[neighbor] = 0
                     return True
 
             safenodes[node] = 1
