@@ -21,7 +21,7 @@ class Solution:
             pos_idx -= 1
 
             root_idx = inorder_idx[root_val]
-            root = TreeNode(postorder.pop())
+            root = TreeNode( root_val)
 
             root.right = build(root_idx+1, inorder_end)
             root.left = build(inorder_start, root_idx-1)
