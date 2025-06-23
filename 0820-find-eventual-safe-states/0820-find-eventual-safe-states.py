@@ -28,6 +28,7 @@ class Solution:
                     return True
 
             safenodes[node] = 1
+            path_visited[node] = False
             return False
 
         res = []       
