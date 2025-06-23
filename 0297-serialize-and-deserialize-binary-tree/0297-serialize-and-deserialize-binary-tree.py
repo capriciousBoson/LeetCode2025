@@ -39,9 +39,14 @@ class Codec:
         """
         if not data: return 
 
+        nodes = list(data.split(","))
+        i = 0
         vals = iter(data.split(","))
         def dfs():
-            val = next(vals)
+            nonlocal i
+            # val = next(vals)
+            val = nodes[i]
+            i +=1
             if val == "x":
                 return
             
