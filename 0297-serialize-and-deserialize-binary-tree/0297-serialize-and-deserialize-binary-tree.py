@@ -54,7 +54,6 @@ class Codec:
             node.right = dfs()
             return node
 
-
         return dfs()
 
 
