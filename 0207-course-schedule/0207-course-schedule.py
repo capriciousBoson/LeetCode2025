@@ -10,21 +10,23 @@ class Solution:
 
 
         def dfs(node):
+            visited[node] = True
+            path_visited[node] = True
+
             for neighbor in adj[node]:
                 if not visited[neighbor]:
-                    visited[neighbor] = True
-                    path_visited[neighbor] = True
-                    if dfs(neighbor): return True
+                    if dfs(neighbor): 
+                        return True
                     path_visited[neighbor] = False
                 elif visited[neighbor] and path_visited[neighbor]:
                     return True
+            path_visited[node] = False
+
             return False
                     
 
         for start in range(numCourses):
             if not visited[start]:
-                visited[start] = True
-                path_visited[start] = True
                 if dfs(start):
                     return False
                 path_visited[start] =False
