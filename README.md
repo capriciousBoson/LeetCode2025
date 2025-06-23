@@ -72,11 +72,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/capriciousBoson/LeetCode2025/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/capriciousBoson/LeetCode2025/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Design
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Trie
 |  |
 | ------- |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/capriciousBoson/LeetCode2025/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -126,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/capriciousBoson/LeetCode2025/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/capriciousBoson/LeetCode2025/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
@@ -153,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/capriciousBoson/LeetCode2025/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/capriciousBoson/LeetCode2025/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -170,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/capriciousBoson/LeetCode2025/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/capriciousBoson/LeetCode2025/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/capriciousBoson/LeetCode2025/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
