@@ -9,6 +9,9 @@ class Solution:
             adj[b].append(a)
             indegrees[a] +=1
         
+
+
+        
         Q = deque()
         for i in range(numCourses):
             if indegrees[i] == 0:
