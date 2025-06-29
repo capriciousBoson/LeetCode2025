@@ -11,6 +11,7 @@ class Solution:
         Q = deque()
         Q.append([0,0,1])
         while Q:
+            # Q = deque(sorted(Q,key=lambda x: x[2]))
             x,y, d = Q.popleft()
             if (x,y) not in distance or d<distance[(x,y)] : 
                 distance[(x,y)]  = d
