@@ -2,38 +2,29 @@ from collections import defaultdict, deque
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         n = len(grid)
-        if grid[n-1][n-1] !=0: return -1
+        if grid[n-1][n-1] !=0 or grid[0][0] !=0 : return -1
 
-        adj = defaultdict(list)
         distance = defaultdict(int)
 
         dirs = [(0,1),(1,0), (1,1), (-1,0),(0,-1),(-1,-1),(1,-1),(-1,1)]
-        # visited = [[False for _ in range(n)] for __ in range(n)]
-        
-        for i in range(n):
-            for j in range(n):
-                if grid[i][j] ==0:
-                    distance[i*n+j] = float('inf')
-                    for dx, dy in dirs:
-                        x,y = i+dx, j+dy
-                        if 0<=x<n and 0<=y<n:
-                            if grid[x][y]==0 : 
-                                adj[i*n+j].append(x*n+y)
+
         Q = deque()
-        Q.append([0,1])
+        Q.append([0,0,1])
         while Q:
-            node, d = Q.popleft()
-            if d<distance[node] : 
-                distance[node]  = d
+            x,y, d = Q.popleft()
+            if (x,y) not in distance or d<distance[(x,y)] : 
+                distance[(x,y)]  = d
 
-                for ngh in adj[node]:
-                    
-                    Q.append([ngh, d+1])
+                for dx, dy in dirs:
+                    x2,y2= x+dx, y+dy
+                    if 0<=x2<n and 0<=y2<n:
+                        if grid[x2][y2]==0 :
+                            Q.append([x2,y2, d+1])
 
+        print(f"distance : {distance}")
+        if (n-1, n-1)not in distance or distance[(n-1, n-1)] == float('inf'): return -1
 
-        if distance[n**2-1] == float('inf'): return -1
-
-        return distance[n**2-1]
+        return distance[(n-1, n-1)]
                 
             
 
