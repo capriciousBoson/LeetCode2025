@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/capriciousBoson/LeetCode2025/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/capriciousBoson/LeetCode2025/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Dynamic Programming
 |  |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/capriciousBoson/LeetCode2025/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/capriciousBoson/LeetCode2025/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/capriciousBoson/LeetCode2025/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/capriciousBoson/LeetCode2025/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Sorting
 |  |
 | ------- |
