@@ -13,6 +13,7 @@ class Solution:
         while Q:
             # Q = deque(sorted(Q,key=lambda x: x[2]))
             x,y, d = Q.popleft()
+            if (x,y) == (n-1, n-1) : return d
             if (x,y) not in distance or d<distance[(x,y)] : 
                 distance[(x,y)]  = d
 
