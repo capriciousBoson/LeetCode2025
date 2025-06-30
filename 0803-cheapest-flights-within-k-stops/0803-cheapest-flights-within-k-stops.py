@@ -13,7 +13,7 @@ class Solution:
 
         while pq:
             price, (city, stops) = heapq.heappop(pq)
-            if city==dst :
+            if city==dst and stops<=k+1:
                 return price
             if stops>k : continue
             for ngh, price_ in adj[city]:
