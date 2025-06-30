@@ -7,9 +7,11 @@ class Solution:
         for u,v,w in times:
             adj[u].append((v,w))
         
-        print(f"adjacency list : {adj}")
+        # print(f"adjacency list : {adj}")
         pq = [(0,k)]
         time_taken[k] = 0
+
+        
 
         while pq:
             time, node = heapq.heappop(pq)
@@ -19,7 +21,7 @@ class Solution:
                     heapq.heappush(pq, (time+time_, ngh))
                     time_taken[ngh] = time+time_
 
-        print(f"timetaken : {time_taken}")
+        # print(f"timetaken : {time_taken}")
         res = max(time_taken[1:])
         if res == float('inf'): return -1
         return res        
