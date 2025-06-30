@@ -15,7 +15,8 @@ class Solution:
         while pq:
             
             effort,(x,y) = heapq.heappop(pq)
-            efforts[x][y] = min(efforts[x][y], effort)
+            if (x,y) == (rows-1, cols-1):
+                return effort
             for dx, dy in dirs:
                 x2,y2 = x+dx, y+dy
                 if 0<=x2<rows and 0<=y2<cols:
