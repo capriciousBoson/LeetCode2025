@@ -23,7 +23,7 @@ class Solution:
                     times[ngh] = time+time_
                     counts[ngh] = counts[node]
                 elif time+time_ == times[ngh]:
-                    counts[ngh] +=counts[node]
+                    counts[ngh]  = (counts[ngh]+counts[node])%MOD
         
         return counts[n-1]%MOD
         
