@@ -20,13 +20,13 @@ class Solution:
         
         # build the ds
 
-        emails = []
+        emails = set()
         names = {}
         for account in accounts:
             name = account[0]
             for email in account[1:]:
                 parent[email] = email
-                emails.append(email)
+                emails.add(email)
                 names[email] = name
 
         for account in accounts:
@@ -41,7 +41,7 @@ class Solution:
         res = []
         for key in groups:
             res.append( [names[key]] + sorted(groups[key]))
-            
+
         return res
         
         
