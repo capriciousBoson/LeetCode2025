@@ -39,10 +39,9 @@ class Solution:
             groups[root_email].add(email)
         
         res = []
-        for key, _ in groups.items():
-            name = names[key]
-            groups[key] = [name] + sorted(groups[key])
-            res.append(groups[key])
+        for key in groups:
+            res.append( [names[key]] + sorted(groups[key]))
+            
         return res
         
         
