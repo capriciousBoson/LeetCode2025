@@ -6,7 +6,7 @@ class Solution:
 
         
         def findParent(x):
-            print(f"searching for parent of x : {x}")
+            # print(f"searching for parent of x : {x}")
             if x!=parent[x]:
                 parent[x] = findParent(parent[x])
             return parent[x]
