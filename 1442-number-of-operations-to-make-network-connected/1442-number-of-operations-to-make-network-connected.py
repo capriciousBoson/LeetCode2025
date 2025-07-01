@@ -32,7 +32,6 @@ class Solution:
         for i in range(n):
             connected_components.add(find(i))
         
-        
-        
+
         return len(connected_components) -1
         
