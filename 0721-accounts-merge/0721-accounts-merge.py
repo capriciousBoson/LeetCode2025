@@ -30,9 +30,8 @@ class Solution:
                 names[email] = name
 
         for account in accounts:
-            name = account[0]
-            for e1, e2 in combinations(account[1:], 2):
-                union(e1, e2)
+            for email in account[2:]:
+                union(account[1], email)
         
         groups = defaultdict(set)
         for email in emails:
