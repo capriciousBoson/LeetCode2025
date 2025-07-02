@@ -18,7 +18,7 @@ class Solution:
             timer += 1
             time[node] = timer
             low[node] = timer
-            print(f"\n at node :{node} current low :{low[node]}")
+            # print(f"\n at node :{node} current low :{low[node]}")
 
             visited[node] = True
             for ngh in adj[node]:
@@ -34,8 +34,8 @@ class Solution:
 
 
         dfs(0,-1)
-        print(f"times : {time}")
-        print(f"low times : {low}")
+        # print(f"times : {time}")
+        # print(f"low times : {low}")
 
 
         return bridges
