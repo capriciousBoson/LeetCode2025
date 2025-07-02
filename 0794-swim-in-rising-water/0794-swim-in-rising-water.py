@@ -14,7 +14,7 @@ class Solution:
             elevation, i,j = heapq.heappop(Q)
             res = max(res, elevation)
             visited[i][j] = True
-            path.append(grid[i][j])
+            # path.append(grid[i][j])
             if i==n-1 and j==n-1: break
 
             for dx, dy in dirs:
