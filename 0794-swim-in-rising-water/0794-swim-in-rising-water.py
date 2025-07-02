@@ -7,7 +7,7 @@ class Solution:
         res = -float('inf')
         dirs = [(0,1),(1,0),(0,-1),(-1,0)]
         visited = [[False for _ in range(n)] for __ in range(n)]
-        path = []
+        # path = []
         reached = False
 
         while Q:
@@ -22,7 +22,7 @@ class Solution:
                 if 0<=x<n and 0<=y<n and not visited[x][y]:
                     heapq.heappush(Q,(grid[x][y], x, y))
 
-        print(f"visited: {path}")
+        # print(f"visited: {path}")
 
         return res
 
