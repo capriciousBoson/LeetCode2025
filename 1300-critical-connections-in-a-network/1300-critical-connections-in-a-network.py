@@ -8,7 +8,7 @@ class Solution:
             adj[v].append(u)
 
         time = [0 for _ in range(n)]
-        low = [float('inf') for _ in range(n)]
+        low = [0 for _ in range(n)]
         visited = [False for _ in range(n)]
         bridges = []
 
