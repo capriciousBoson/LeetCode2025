@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/capriciousBoson/LeetCode2025/tree/master/0130-surrounded-regions) |
 | [0416-partition-equal-subset-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/capriciousBoson/LeetCode2025/tree/master/0733-flood-fill) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Search
 |  |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Divide and Conquer
@@ -287,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/capriciousBoson/LeetCode2025/tree/master/1300-critical-connections-in-a-network) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
