@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/capriciousBoson/LeetCode2025/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0130-surrounded-regions](https://github.com/capriciousBoson/LeetCode2025/tree/master/0130-surrounded-regions) |
+| [0322-coin-change](https://github.com/capriciousBoson/LeetCode2025/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/capriciousBoson/LeetCode2025/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0322-coin-change](https://github.com/capriciousBoson/LeetCode2025/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/capriciousBoson/LeetCode2025/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/capriciousBoson/LeetCode2025/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/capriciousBoson/LeetCode2025/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/capriciousBoson/LeetCode2025/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0662-maximum-width-of-binary-tree) |
