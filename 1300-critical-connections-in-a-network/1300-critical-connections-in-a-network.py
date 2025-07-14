@@ -9,7 +9,7 @@ class Solution:
 
         time = [0 for _ in range(n)]
         low = [0 for _ in range(n)]
-        visited = [False for _ in range(n)]
+        # visited = [False for _ in range(n)]
         bridges = []
 
         timer = -1
@@ -18,17 +18,17 @@ class Solution:
             timer += 1
             time[node] = timer
             low[node] = timer
-            visited[node] = True
+            # visited[node] = True
             
             for ngh in adj[node]:
                 if ngh==parent_node: continue
                 
-                if not visited[ngh] :
+                if not time[ngh] :
                     dfs(ngh, node)
                     low[node] = min(low[node], low[ngh])
                     if time[node] < low[ngh]:
                         bridges.append([node, ngh])
-                if visited[ngh]:
+                if time[ngh]:
                     low[node] = min(low[node], low[ngh])
 
 
