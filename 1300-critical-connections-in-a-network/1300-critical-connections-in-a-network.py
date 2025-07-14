@@ -28,8 +28,8 @@ class Solution:
                     low[node] = min(low[node], low[ngh])
                     if time[node] < low[ngh]:
                         bridges.append([node, ngh])
-                if time[ngh]:
-                    low[node] = min(low[node], low[ngh])
+                # if time[ngh]:
+                low[node] = min(low[node], low[ngh])
 
 
         dfs(0,-1)
