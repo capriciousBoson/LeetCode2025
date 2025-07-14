@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/capriciousBoson/LeetCode2025/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
+| [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/capriciousBoson/LeetCode2025/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/capriciousBoson/LeetCode2025/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
+| [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/capriciousBoson/LeetCode2025/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Design
 |  |
