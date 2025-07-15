@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/capriciousBoson/LeetCode2025/tree/master/0583-delete-operation-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/capriciousBoson/LeetCode2025/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
+| [1170-shortest-common-supersequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/capriciousBoson/LeetCode2025/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/capriciousBoson/LeetCode2025/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/capriciousBoson/LeetCode2025/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
+| [1170-shortest-common-supersequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/capriciousBoson/LeetCode2025/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/capriciousBoson/LeetCode2025/tree/master/2260-divide-a-string-into-groups-of-size-k) |
