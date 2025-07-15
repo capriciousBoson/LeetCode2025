@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/capriciousBoson/LeetCode2025/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0322-coin-change](https://github.com/capriciousBoson/LeetCode2025/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0416-partition-equal-subset-sum) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/capriciousBoson/LeetCode2025/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/capriciousBoson/LeetCode2025/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0297-serialize-and-deserialize-binary-tree) |
