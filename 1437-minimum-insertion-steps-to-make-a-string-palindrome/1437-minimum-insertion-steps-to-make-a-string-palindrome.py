@@ -9,18 +9,14 @@ class Solution:
 
         for i in range(n-1, -1, -1):
             for j in range(i+1, n):
-                # print(f"\n i,j : {i,j} ::::: s[{i}] = {s[i]}  s[{j}] = {s[j]}")
                 if s[i]==s[j]:
-                    # print(f"same characters---- \ndp[i+1][j-1] : {dp[i+1][j-1]}")
                     dp[i][j] = dp[i+1][j-1]
                 else:
-                    # print(f"different characters--- \ndp[{i+1}][{j}]={dp[i+1][j]}, dp[{i}][{j-1}]={dp[i][j-1]}")
                     dp[i][j] = 1 + min(
                                             dp[i+1][j],
                                             dp[i][j-1]
         
                                         )
-        # for row in dp: print([str(n)+"   " if n==0 else str(n)+"." for n in row])
         return dp[0][n-1]
 
 
