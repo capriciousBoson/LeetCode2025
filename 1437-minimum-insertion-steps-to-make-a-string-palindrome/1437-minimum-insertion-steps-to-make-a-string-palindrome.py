@@ -4,8 +4,8 @@ class Solution:
         n = len(s)
         dp = [[0 for _ in range(n)] for __ in range(n)]
 
-        for i in range(n):
-            dp[i][i] = 0
+        # for i in range(n):
+        #     dp[i][i] = 0
 
         for i in range(n-1, -1, -1):
             for j in range(i+1, n):
