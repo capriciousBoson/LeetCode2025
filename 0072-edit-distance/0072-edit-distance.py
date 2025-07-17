@@ -26,7 +26,7 @@ class Solution:
                 else:
                     dp[i][j] = dp[i-1][j-1]
 
-        for row in dp: print(row)
+        # for row in dp: print(row)
 
         return dp[m][n]
 
