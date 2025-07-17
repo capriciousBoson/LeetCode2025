@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/capriciousBoson/LeetCode2025/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/capriciousBoson/LeetCode2025/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/capriciousBoson/LeetCode2025/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/capriciousBoson/LeetCode2025/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/capriciousBoson/LeetCode2025/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/capriciousBoson/LeetCode2025/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/capriciousBoson/LeetCode2025/tree/master/0127-word-ladder) |
@@ -312,5 +314,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/capriciousBoson/LeetCode2025/tree/master/0044-wildcard-matching) |
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/capriciousBoson/LeetCode2025/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
