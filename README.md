@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 | [0518-coin-change-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/capriciousBoson/LeetCode2025/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/capriciousBoson/LeetCode2025/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/capriciousBoson/LeetCode2025/tree/master/0794-swim-in-rising-water) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/capriciousBoson/LeetCode2025/tree/master/0583-delete-operation-for-two-strings) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/capriciousBoson/LeetCode2025/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/capriciousBoson/LeetCode2025/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
 | [1170-shortest-common-supersequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1170-shortest-common-supersequence) |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/capriciousBoson/LeetCode2025/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/capriciousBoson/LeetCode2025/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/capriciousBoson/LeetCode2025/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Recursion
 |  |
 | ------- |
