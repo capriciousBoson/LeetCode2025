@@ -5,11 +5,10 @@ class Solution:
         dp = [1 for _ in range(n)]
         res = 0
         for i in range(n):
-            max_prefix = 0
             for prev in range(i):
                 if nums[i]>nums[prev]:
-                    max_prefix = max(max_prefix, dp[prev])
-            dp[i] += max_prefix
+                    dp[i] = max(dp[i],1+ dp[prev])
+           
             res = max(res, dp[i])
         return res
 
