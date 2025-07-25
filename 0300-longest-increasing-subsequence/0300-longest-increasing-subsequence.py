@@ -2,15 +2,26 @@ class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         n = len(nums)
 
-        dp = [[0 for _ in range(n+1)] for __ in range(n+1)]
+        dp = [1 for _ in range(n)]
+        res = 0
+        for i in range(n):
+            max_prefix = 0
+            for prev in range(i):
+                if nums[i]>nums[prev]:
+                    max_prefix = max(max_prefix, dp[prev])
+            dp[i] += max_prefix
+            res = max(res, dp[i])
+        return res
 
-        for i in range(n-1, -1, -1):
-            for prev in range(i-1, -2, -1):
-                if prev==-1 or nums[i] > nums[prev]  :
-                    dp[i][prev+1] = max(1+dp[i+1][i+1], dp[i+1][prev+1])
-                else:
-                    dp[i][prev+1] = dp[i+1][prev+1]
-        return dp[0][0]
+        # dp = [[0 for _ in range(n+1)] for __ in range(n+1)]
+
+        # for i in range(n-1, -1, -1):
+        #     for prev in range(i-1, -2, -1):
+        #         if prev==-1 or nums[i] > nums[prev]  :
+        #             dp[i][prev+1] = max(1+dp[i+1][i+1], dp[i+1][prev+1])
+        #         else:
+        #             dp[i][prev+1] = dp[i+1][prev+1]
+        # return dp[0][0]
 
 
 
