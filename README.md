@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/capriciousBoson/LeetCode2025/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/capriciousBoson/LeetCode2025/tree/master/1073-number-of-enclaves) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/capriciousBoson/LeetCode2025/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/capriciousBoson/LeetCode2025/tree/master/1753-path-with-minimum-effort) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/capriciousBoson/LeetCode2025/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/capriciousBoson/LeetCode2025/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/capriciousBoson/LeetCode2025/tree/master/0967-minimum-falling-path-sum) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/capriciousBoson/LeetCode2025/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/capriciousBoson/LeetCode2025/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Search
 |  |
@@ -112,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/capriciousBoson/LeetCode2025/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 ## String
 |  |
 | ------- |
@@ -124,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/capriciousBoson/LeetCode2025/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/capriciousBoson/LeetCode2025/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/capriciousBoson/LeetCode2025/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -265,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/capriciousBoson/LeetCode2025/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/capriciousBoson/LeetCode2025/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/capriciousBoson/LeetCode2025/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/capriciousBoson/LeetCode2025/tree/master/1129-longest-string-chain) |
 ## Divide and Conquer
 |  |
 | ------- |
