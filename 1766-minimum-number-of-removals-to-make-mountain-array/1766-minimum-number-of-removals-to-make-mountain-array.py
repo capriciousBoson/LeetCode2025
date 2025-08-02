@@ -11,9 +11,9 @@ class Solution:
                 if nums[-i-1] > nums[-prev-1]:
                     dp2[i] = max(dp2[i], 1+dp2[prev])
 
-        print(f"num :   {nums}")
-        print(f"dp1 :   {dp1} \n----------------------")
-        print(f"sum :   {dp2[::-1]} \n---------------------")
+        # print(f"num :   {nums}")
+        # print(f"dp1 :   {dp1} \n----------------------")
+        # print(f"sum :   {dp2[::-1]} \n---------------------")
         longest_bitonic  = 0
         for a,b in zip(dp1, dp2[::-1]):
             if a==1 or b==1: continue
